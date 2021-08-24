@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
@@ -13,4 +13,9 @@ def login():
 @app.route("/dashboard")
 def dashboard():
     # Temporary Placeholder
-    return "<p>You're looking at the Dashboard.</p>"
+    return "<p>This is a placeholder. You're looking at the Dashboard.</p>"
+
+@app.route("/userprofile")
+def userprofile():
+    # Temporary Placeholder
+    return "<p>This is a placeholder. You're looking at your profile.</p>"
