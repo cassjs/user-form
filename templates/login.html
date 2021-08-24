@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="login-container bg-white border p-4 w-50">
+        <form>
+            <h1>login</h1>
+            <div class="form-group mt-4 mb-2">
+                <input type="username" class="form-control" placeholder="Enter Username">
+            </div>
+            <div class="form-group mb-2">
+                <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+            <button type="submit" class="btn btn-primary mt-4">Login</button>
+        </form>
+    </div>
+{% endblock %}
