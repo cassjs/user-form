@@ -9,3 +9,6 @@ __pycache__/
 
 # Mac hidden files
 .DS_Store
+
+#vscode
+**.vscode/

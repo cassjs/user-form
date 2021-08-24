@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template('signup.html')
+    return render_template('register.html')
