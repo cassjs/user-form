@@ -63,10 +63,12 @@ def check_verification_token(phone, token):
 def login():
     return render_template('login.html')
 
+# Placeholder for future use
 @app.route('/dashboard')
 def dashboard():
     return render_template('dashboard.html')
 
+# Placeholder for future use
 @app.route('/userprofile')
 def userprofile():
     return render_template('userprofile.html')
