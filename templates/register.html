@@ -7,18 +7,23 @@
 {% endblock %}
 {% block content %}
     <div class="register-container bg-white border p-4 w-50">
-        <form>
-            <h1>Register</h1>
+        <h1>register</h1>
+        <form method="POST">
             <div class="form-group mt-4 mb-2">
-                <input type="username" class="form-control" placeholder="Enter Username">
+                <input class="form-control" type="text" placeholder="username">
             </div>
             <div class="form-group mb-2">
-                <input type="email" class="form-control" placeholder="Enter Email">
+                <input class="form-control" type="text" name="email" placeholder="email">
             </div>
             <div class="form-group mb-2">
-                <input type="password" class="form-control" placeholder="Enter Password">
+                <input class="form-control" type="password" placeholder="password">
             </div>
-            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+            <div class="field">
+                <p class="control">
+                    <button class="btn btn-primary mt-4" type="submit" value="Submit">submit</button>
+                </p>
+            </div>
         </form>
     </div>
 {% endblock %}
+
