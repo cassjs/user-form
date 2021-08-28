@@ -7,7 +7,7 @@ This is a simple user sign-up and login application. After the user registers, t
 - **Database:** Flask-SQLAlchemy
 - **Styling:** Bootstrap, LESS
 - **Scripting:** Bash
-- **Deployment:** 
+- **Deployment:** Docker, Azure
 
 ## **Features**
 - User Sign-in/Sign-up/Logout functionality
@@ -15,6 +15,8 @@ This is a simple user sign-up and login application. After the user registers, t
 - User data stored via the Flask-SQLAlchemy database
 - Security handled via flask login manager and user passwords hashed
 - Responsive styling viewable on mobile or desktop devices
+- Containerized via Docker with bash scripts to automate build/run/stop commands
+- Deployed via Azure container registry and Azure App Service w/ continuous deployment
 
 ## **Preview:**
 <img src="static/userform-demo1.png" width="880px" target="_blank">\
