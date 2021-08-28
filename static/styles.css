@@ -1,0 +1,33 @@
+.templates-container-main {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 70%;
+  padding: 60px;
+}
+.template-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.control-label {
+  display: none;
+}
+/* ------ MEDIA QUERIES ------
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+/* Small devices (portrait phones, 320px and up) */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .templates-container-main {
+    max-width: 1000px;
+  }
+}

@@ -1,12 +1,11 @@
 {% extends "base.html" %}
-{% block title %}Dashboard{% endblock %}
+{% block title %}dashboard{% endblock %}
 {% block head %}
     {{ super() }}
-    <style type="text/css">
-    </style>
 {% endblock %}
 {% block content %}
-    <div class="login-container bg-white border p-4 w-50">
-        <h1>dashboard placeholder</h1>
+    <div class="template-container">
+        <h1 class="mb-4">Welcome, {{ name }}</h1>
+        <a href="{{ url_for('logout') }}" class="btn btn-outline-primary" role="button" aria-pressed="true">logout</a>
     </div>
 {% endblock %}
